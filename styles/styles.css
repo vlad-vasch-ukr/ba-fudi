@@ -1,0 +1,353 @@
+* {
+  box-sizing: border-box;
+}
+.conteiner {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+.ba-header {
+  position: absolute;
+  width: 100%;
+}
+.ba-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ba-menu-item {
+  margin-left: 30px;
+}
+.ba-menu-item a {
+  font-size: 0.875rem;
+  letter-spacing: 0.044rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.ba-menu-item-btn button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.ba-header a {
+  text-decoration: none;
+}
+.ba-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.ba-hero {
+  background-image: url(../img/main_image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 345px 0 240px 0;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+.ba-hero p:first-child {
+  font-family: "Times New Roman", serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 0.8333;
+  letter-spacing: 0.05rem;
+  color: #eadedc;
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 6.25rem;
+  font-weight: bold;
+  line-height: 0.8333;
+  letter-spacing: 0.3125rem;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.ba-hero-btn {
+  height: 68px;
+  width: 280px;
+  font-size: 1.125rem;
+  letter-spacing: 0.028rem;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding-top: 22px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+.ba-hero p:last-child {
+  font-size: 0.875rem;
+  letter-spacing: 0.044rem;
+  margin: 0;
+}
+.ba-hero p a {
+  color: #fff;
+}
+.ba-hero-get {
+  padding: 100px 0 100px 0;
+}
+.icon {
+  height: 104px;
+  width: 104px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.icon-1 {
+  background-image: url(../img/icon-1.png);
+}
+.icon-2 {
+  background-image: url(../img/icon-2.png);
+}
+.icon-3 {
+  background-image: url(../img/icon-3.png);
+}
+.ba-get {
+  width: 30.508%;
+  text-align: center;
+}
+.ba-section-get-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ba-get h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.056rem;
+  margin: 15px 0 0 0;
+}
+.under-line {
+  width: 88px;
+  border-top: 1px solid #f57365;
+  margin: 0 auto;
+}
+.ba-get p {
+  font-family: "Times New Roman", serif;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.056rem;
+  color: #6b6b6b;
+}
+.ba-hero-app {
+  background-color: #f7f7f7;
+}
+.ba-section-app-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.app {
+  font-family: "Lato", sans-serif;
+  width: 45.76%;
+  padding-top: 180px;
+}
+.app h2 {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.056rem;
+  margin: 0;
+}
+.app p {
+  font-size: 1rem;
+  line-height: 1.563rem;
+  letter-spacing: 0.018rem;
+  color: #a5a5a5;
+}
+.app p:nth-child(even) {
+  margin: 35px 0;
+}
+.app .under-line {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.ba-iphone {
+  padding-top: 103px;
+}
+.instal-app {
+  margin-top: 28px;
+}
+.instal-app a + a {
+  margin-left: 10px;
+}
+.ba-hero-comments {
+  position: relative;
+}
+.ba-hero-comments-absolute {
+  position: absolute;
+  width: 100%;
+  top: -197px;
+  background-color: #4a3949;
+  background-image: url(../img/comments.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 77px;
+}
+.photo {
+  height: 110px;
+  width: 110px;
+  background-image: url(../img/photo.jpg);
+  background-position-x: -20px;
+  border: 4px solid #928892;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.ba-section-comments-wrapper {
+  padding-top: 80px;
+}
+blockquote {
+  font-family: "Lato", sans-serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: lighter;
+  text-align: center;
+  color: #8d858d;
+  margin: 25px 0 35px 0;
+}
+blockquote p {
+  margin: 0 0 25px 0;
+}
+blockquote cite {
+  font-size: 1.125rem;
+}
+.radio {
+  width: 15%;
+  text-align: center;
+  margin: 0 auto;
+}
+.radio input {
+  display: none;
+}
+.radio label {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #796d79;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#button1:checked ~ #hw1,
+#button2:checked ~ #hw2,
+#button3:checked ~ #hw3 {
+  background: #fff;
+}
+.ba-hero-food {
+  padding-top: 385px;
+}
+.list {
+  list-style: none;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #f57365;
+}
+.list-item {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+}
+.list-item img {
+  width: 100%;
+}
+.list-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.food {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.food p {
+  font-family: "Times New Roman", serif;
+  font-size: 0.96rem;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.048rem;
+  line-height: 0.8rem;
+}
+.ba-recipes {
+  font-family: "Lato", sans-serif;
+  font-size: 2.25rem;
+  line-height: 0.8rem;
+  letter-spacing: 0.1125rem;
+}
+.ba-hero-food h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.056rem;
+  text-align: center;
+}
+.food-list {
+  margin-top: 40px;
+}
+.active-list {
+  width: 100%;
+  list-style: none;
+  font-size: 0;
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 55px 0;
+}
+.active-item {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+.active-item p {
+  font-size: 2.25rem;
+  line-height: 1.875rem;
+  font-weight: bold;
+  letter-spacing: 0.1125rem;
+  margin: 0 0 10px 0;
+}
+.active-item span {
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  font-weight: lighter;
+  color: #585858;
+}
+footer {
+  background-color: #f7f7f7;
+  border-top: 1px solid #e2e2e2;
+  padding: 40px 0;
+}
+.ba-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ba-footer p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
+  color: #c5c5c5;
+}
+.ba-footer p:first-child {
+  font-weight: lighter;
+}
+.ba-footer p:last-child {
+  letter-spacing: 0.175rem;
+}
+.ba-footer p a {
+  text-decoration: none;
+  color: black;
+}
+
